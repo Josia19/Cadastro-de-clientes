@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="/styles/layout.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tela simples de cadastro de clientes</title>
+</head>
+<body>
+
+    <div id="main-box">
+        <h1>Novo por aqui?</h1>
+
+        <p>Bem vindo ao seu portal de cadastro.</p>
+        <div class="tipoPessoa">
+            <input type="radio" name="pessoa">Pessoa Física</input> <br />
+            <input type="radio" name="pessoa">Pessoa Jurídica</input>
+        </div>
+
+        <div>
+            <table>
+                <tr>
+                    <td>Nome:</td>
+                    <td><input type="text" name="nome" class="pessoaDados"></td>
+
+                    <td>Endereço:</td>
+                    <td><input type="text" name="endereco" class="pessoaDados"></td>
+                </tr>
+
+                <tr>
+                    <td>RG:</td>
+                    <td><input type="text" name="rg" class="pessoaDados"></td>
+
+                    <td>CPF:</td>
+                    <td><input type="text" name="cpf" class="pessoaDados"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="salvar">
+            <button>Salvar</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
